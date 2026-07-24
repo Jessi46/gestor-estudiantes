@@ -1,4 +1,4 @@
-# Gestor de Estudiantes
+# Gestor de Estudiantes v1
 
 Aplicación web para registrar estudiantes, construida con TypeScript y POO
 como proyecto integrador de las sesiones 10–12.
