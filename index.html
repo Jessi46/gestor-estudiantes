@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Estudiantes</title>
+</head>
+<body>
+  <h1>Registro de Estudiantes</h1>
+
+  <form id="formulario">
+    <input name="nombre" placeholder="Nombre" required>
+    <input name="correo" type="email" placeholder="Correo" required>
+    <select name="jornada">
+      <option value="matutina">Matutina</option>
+      <option value="vespertina">Vespertina</option>
+      <option value="nocturna">Nocturna</option>
+    </select>
+    <button type="submit">Agregar</button>
+  </form>
+
+  <p id="error" style="color:red"></p>
+  <ul id="lista"></ul>
+  <button id="guardar">Guardar en JSON</button>
+
+  <script type="module" src="dist/app.js"></script>
+</body>
+</html>
